@@ -7,7 +7,6 @@ export function HomePage(props) {
   let [list, setList] = useState(["ready", "set", "GO"]);
   let [text, setText] = useState("");
 
-  //STUDYING HERE.
   function onSubmit(e) {
     e.preventDefault();
 
